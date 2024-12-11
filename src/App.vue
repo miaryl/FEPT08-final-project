@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ title }}</h1>
+    <router-view/>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: "App",
   data(){
     return{
-      title: "Hola!! final project"
+      title: "final project"
     }
   }
   
@@ -17,5 +17,6 @@ export default {
 </script>
 
 <style>
+  *{}
   
 </style>
