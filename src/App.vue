@@ -1,49 +1,33 @@
 <template>
-  <div class="bg-gray-900 text-white">
-    <div>
-      <h1 class="text-violet-600">LOGO o TITLE</h1>
-      <div class="gap-5">
-        <ul>
-          <li>
-            <router-link to="/">HOME</router-link>
-          </li>
-          <li>
-            <router-link to="/genre">GENRE</router-link>
-          </li>
-          <li>
-            <router-link to="/mylibrary">MY LIBRARY</router-link>
-          </li>
-        </ul>
-
-      <!--make header component??? look more simple?-->
-      </div>
-      <div>
-        <!--main : make search bar and movie list-->
-
-      </div>
-    </div>
+  <div id="app" class="bg-gray-900 text-white">
 
 
+    <Navbar />
 
 
-
-
-
-
-
-
-    <router-view/>
+    <main class=" container py-6 px-4 mx-auto ">
+      
+      <router-view />
+    </main>
   </div>
+  
+
+   
 </template>
 
 
 <script>
+import Navbar from './components/Navbar.vue';
+
 export default {
   name: "App",
   data(){
     return{
       title: "final project"
     }
+  },
+  components: {
+    Navbar
   }
   
 }
@@ -52,8 +36,6 @@ export default {
 
 
 <style>
-  *{
-    background-color: grey;
-  }
+ 
   
 </style>

@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    name: "MyLibrary"
+    name: "MyMovies",
 }
 </script>
 
