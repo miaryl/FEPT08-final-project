@@ -2,10 +2,10 @@
     <div class=" bg-gray-800">
         <nav>
             <div class="container flex justify-between items-center px-4 py-4 ">
-                <h1>CineFinder</h1>
+                <h1 class="hover:text-pink-700">CineFinder</h1>
                 <div class="gap-9">
-                    <<router-link to="/" class="text-emerald-600 hover:text-emerald-800">Home</router-link>
-                    <<router-link to="my-movies" class="text-emerald-600 hover:text-emerald-800">My Movies</router-link>
+                    <router-link to="/" class="text-emerald-600 hover:text-emerald-800">Home</router-link>
+                    <router-link to="my-movies" class="text-emerald-600 hover:text-emerald-800">My Movies</router-link>
                 </div>
             </div>
 
